@@ -3,6 +3,6 @@
     "L9110.rotateDir.clockWise|block": "正轉",
     "L9110.rotateDir.counterClockWise|block": "反轉",
     "L9110.initPins|block": "初始化L9110腳位:|M1A %myM1A|M1B %myM1B|M2A %myM2A|M2B %myM2B",
-    "L9110.motorRotate|block": "%myMotor 馬達轉動| 方向： %myDir|動力：(0~1023) %power",
-    "L9110.motorStop|block": "%myMotor 馬達停止"
+    "L9110.motorRotate|block": "馬達 %myMotor 轉動| 方向： %myDir|動力：(0~1023) %power",
+    "L9110.motorStop|block": "馬達 %myMotor 停止"
 }
