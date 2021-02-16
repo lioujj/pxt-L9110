@@ -39,7 +39,7 @@ namespace L9110{
     * rotate single motor
     */
     //% blockId="motorRotate" block="rotate motor: %myMotor | %myDir | speed(0~1023) %power"
-    //% power.min=0 power.max=1023 weight=85
+    //% power.min=0 power.max=1023 weight=85 power.defl=1023
     export function motorRotate(myMotor: motor, myDir: rotateDir, power: number): void {
         if (myInit){
             if (myMotor==motor.M1){
